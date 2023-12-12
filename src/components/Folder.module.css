@@ -1,0 +1,33 @@
+.FolderName{
+    background: #938b8b;
+    margin-top: 5px;
+    width: 270px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.folderChild{
+   margin-left: 1rem;
+   margin-right: 1rem;
+   display: flex;
+   align-items: center;
+   font-size: large;
+   cursor: pointer;
+   background: transparent;
+
+}
+.btn{
+   background: transparent;
+   border: 1px solid #a09a9a;
+   margin-left: 5px;
+   cursor: pointer;
+}
+.FolderName>span{
+   margin:0 10px 2px 0;
+}
+.FileName{
+   display: flex;
+   flex-direction: column;
+   margin: 5px;
+   padding-left: 5px;
+}
